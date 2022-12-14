@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0d0e0f;
+}
+
+body, input, button {
+  color: white;
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+p {
+  font-style: italic;
+}
