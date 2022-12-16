@@ -1,4 +1,4 @@
-var requestUrl = 'https://pokeapi.co/api/v2/pokemon/ditto';
+var requestUrl = 'https://pokeapi.co/api/v2/pokemon/';
 
 var responseText = document.getElementById('response-text');
 
@@ -32,3 +32,5 @@ console.log(requestUrl);
 
 
 //Event listener for generate button
+
+
