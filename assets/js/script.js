@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Selecting our HTML Element from DOM
 document.querySelector("#search").addEventListener("click", getPokemon);
 
@@ -42,44 +41,8 @@ function getPokemon(e) {
     });
   e.preventDefault();
 }
-=======
-var requestUrl = 'https://pokeapi.co/api/v2/pokemon/';
-
-var responseText = document.getElementById('response-text');
-
-function getApi(requestUrl) {
-  fetch(requestUrl)
-    .then(function (response) {
-      console.log(response);
-      if (response.status === 200) {
-        responseText.textContent = response.status;
-      }
-      return response.json();
-  });
-}
-
-getApi(requestUrl);
-
-console.log(requestUrl);
 
 
 
 
 
-//Declare and assign variables
-// Tip: Declare variables outside of fuctions
->>>>>>> 939e9eeafbd93989fecf5e9a2f90ec9fac4df3ab
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-//Event listener for generate button
-
-
->>>>>>> 939e9eeafbd93989fecf5e9a2f90ec9fac4df3ab
