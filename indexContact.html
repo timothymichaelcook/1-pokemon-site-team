@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Link Elements -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <!-- Title Element -->
     <title>Pokemon Search</title>
@@ -25,12 +24,18 @@
         <img id="pokemonPicture" src="./pokemon.png" alt="image of Pokemon.">
       </header>
        <!-- Searchbox Elements -->
-      <div class="landingBox flex flex-col items-center p-5">
-        <a href="./indexSearchPokemon.html"><button class="m-2 content-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search Pokemon</button></a>
-        <a href="./indexSearchPokedex.html"><button class="m-2 content-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search Pokedex</button></a>
-        <a href="./indexContact.html"><button class="m-2 content-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact Us</button></a>
+      <div class="searchBox">
         <!-- User Input -->
+        <input id="pokemonName" type="Pokemon name" placeholder="Pokemon name"/>
+        <!-- Search Button -->
+        <button id="search">🔍</button>
       </div>
+      <!-- Container for generated data-->
+      <div class="pokemonBox"></div>
+    <!-- Main Element Ends-->
+    </main>
+    <!-- Script Relative Link -->
+    <script src="./assets/js/script.js"></script>
     <!-- Body Element Ends-->
   </body>
 </html>
