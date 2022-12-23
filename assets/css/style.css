@@ -50,13 +50,10 @@ header {
 
 #pokemonPicture {
   margin-bottom: .5rem;
-  width: 800px;
-  height: 450px;
+  width: 700px;
+  height: 440px;
   margin-bottom: -2rem;
 }
-
-
-
 
 /* searchBox ID Selector */
 .searchBox {
@@ -107,4 +104,5 @@ header {
 .pokemonBox .pokemonInfos {
   padding: 2rem;
 }
+
 

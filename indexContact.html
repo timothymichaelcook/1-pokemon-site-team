@@ -23,19 +23,43 @@
         <img id="pokemonLogo" src="./pokemonlogo.png" alt="Image of Pokemon Logo.">
         <img id="pokemonPicture" src="./pokemon.png" alt="image of Pokemon.">
       </header>
-       <!-- Searchbox Elements -->
-      <div class="searchBox">
+       <!-- contactBox Elements -->
+      <body>
+        <div class="clearfix">
+          <div class="card">
+            <h2>Sign Up</h2>
+            <form method="POST">
+              <div class="input-group">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" placeholder="Jane" />
+              </div>
+              <div class="input-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Doe" />
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="janedoe@mail.com" />
+              </div>
+              <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="supersecure123" />
+              </div>
+              <div id="msg"></div>
+              <button id="sign-up">Sign Up</button>
+            </form>
+          </div>
+        </div>
+        <script src="./assets/js/script.js"></script>
+      </body>
         <!-- User Input -->
-        <input id="pokemonName" type="Pokemon name" placeholder="Pokemon name"/>
-        <!-- Search Button -->
-        <button id="search">🔍</button>
-      </div>
+        
       <!-- Container for generated data-->
       <div class="pokemonBox"></div>
     <!-- Main Element Ends-->
     </main>
     <!-- Script Relative Link -->
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/scripContact.js"></script>
     <!-- Body Element Ends-->
   </body>
 </html>
