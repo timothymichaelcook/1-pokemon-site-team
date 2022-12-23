@@ -2,7 +2,7 @@
 * {
   padding: 0;
   box-sizing: border-box;
-  background-color: #e1ad01;
+  
 }
 
 /* Body, Input, Textarea, Select, Button Selectors */
@@ -11,8 +11,9 @@ input,
 textarea,
 select,
 button {
-  color: white;
+  color: rgb(79, 70, 70);
   font: 400 1rem "Roboto", sans-serif;
+  background-color: #e1ad01;
 }
 
 /* Button Selector */
@@ -104,5 +105,197 @@ header {
 .pokemonBox .pokemonInfos {
   padding: 2rem;
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+.h1-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+h1 {
+  display: flex;
+	letter-spacing: 3px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2px;
+  border: 4px solid rgb(79, 70, 70);
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 200px;
+  color: rgb(79, 70, 70);
+  background-color: #f3ce53;
+
+}
+
+.poke-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.pokemon {
+	background-color: rgb(0, 0, 0);
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.pokemon .img-container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+
+.pokemon .img-container img {
+	margin-top: 20px;
+	max-width: 90%;
+}
+
+.pokemon .info {
+	margin-top: 20px;
+}
+
+.pokemon .number {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 5px 10px;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
+
+
+h2 {
+  font-size: 3em;
+  margin: 0px;
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+}
+
+button {
+  background-color: #001b44;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  letter-spacing: 0.21px;
+  line-height: 16px;
+  max-width: 255px;
+  padding: 20px 52px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: background-color;
+  transition-timing-function: linear;
+  margin-top: 0.6em;
+  float: right;
+}
+
+.input-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #212121;
+}
+
+input {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  border-width: 1px;
+  color: #5f6368;
+  font-size: 1.1em;
+  height: 45px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 8px 8px 8px 8px;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.2s, 0.2s;
+  transition-property: background-color, color;
+  transition-timing-function: ease, ease;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.card {
+  display: block;
+  background-color:#e1ad01;;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+  margin: 40px auto;
+  padding: 20px;
+  width: 60vw;
+}
+
+.card::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+
+
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #e1ad01;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
 
 
