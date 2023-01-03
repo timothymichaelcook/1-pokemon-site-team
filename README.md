@@ -1,4 +1,4 @@
-# Team Challenge 1: Pokemon Application
+# Team Challenge 1: Kanto Pokemon Application
 
 Project Page: [Project Page](https://timothymichaelcook.github.io/bootcamp-team-project1/)
 
