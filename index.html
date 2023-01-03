@@ -23,16 +23,33 @@
     <!-- Main Element Begins-->
     <main>
       <header>
-        <img id="pokemonLogo" src="./pokemonlogo.png" alt="Image of Pokemon Logo.">
-        <img id="pokemonPicture" src="./pokemon.png" alt="image of Pokemon.">
+        <a href="index.html"><img id="pokemonLogo" src="./pokemonlogo.png" alt="Image of Pokemon Logo."></a>
+        <img id="pokemonPicture" src="./pokemon.png" alt="image of Pokemon together from Kanto Region">
       </header>
        <!-- Searchbox Elements -->
       <div class="landingBox flex flex-col items-center p-5">
         <a href="./indexSearchPokemon.html"><button class="m-2 content-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search Pokemon</button></a>
         <a href="./indexSearchPokedex.html"><button class="m-2 content-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search Pokedex</button></a>
+        <a href="./indexPlayerProfile.html"><button class="m-2 content-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Player Profile</button></a>
         <a href="./indexContact.html"><button class="m-2 content-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact Us</button></a>
-        <!-- User Input -->
+        <button class="m-2 content-center bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" id="myBtn">Instructions</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Welcome to our Pokemon Resource App: Kanto Edition! Here, you can search Pokemon, a 
+              Pokedex, create a player profile or just say hi and contact us. We hope you enjoy and remember, to navigate back to this page simply click the Pokemon logo at 
+              the top of your screen! Making a change now, please erase!</p>
+          </div>
+        </div>
+<!-- The Modal -->
+
+
+  <!-- Modal content -->
+  
+
       </div>
+      </div>
+      <script src="./assets/js/script.js"></script>
     <!-- Body Element Ends-->
   </body>
 </html>

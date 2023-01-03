@@ -21,7 +21,7 @@
     <!-- Main Element Begins-->
     <main>
       <header>
-        <img id="pokemonLogo" src="./pokemonlogo.png" alt="Image of Pokemon Logo.">
+        <a href="index.html"><img id="pokemonLogo" src="./pokemonlogo.png" alt="Image of Pokemon Logo."></a>
         <img id="pokemonPicture" src="./pokemon.png" alt="image of Pokemon.">
       </header>
        <!-- contactBox Elements -->
@@ -34,22 +34,22 @@
             <form method="POST">
               <div class="input-group">
                 <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" placeholder="Jane" />
+                <input type="text" name="first-name" id="first-name" placeholder="" />
               </div>
               <div class="input-group">
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" placeholder="Doe" />
+                <input type="text" name="last-name" id="last-name" placeholder="" />
               </div>
               <div class="input-group">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="janedoe@mail.com" />
+                <input type="text" name="email" id="email" placeholder="jdoe@mail.com" />
               </div>
               <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="supersecure123" />
+                <label for="password">Message</label>
+                <input type="text" name="text" id="text" placeholder="Your message here:" />
               </div>
-              <div id="msg"></div>
-              <button id="sign-up">Sign Up</button>
+              
+              <button id="sign-up">Submit</button>
             </form>
           </div>
         </div>
@@ -61,6 +61,7 @@
       <div class="pokemonBox"></div>
     <!-- Main Element Ends-->
     </main>
+    
     <!-- Script Relative Link -->
     <script src="./assets/js/scriptContact.js"></script>
     <!-- Body Element Ends-->

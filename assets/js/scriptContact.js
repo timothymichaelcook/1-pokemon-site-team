@@ -7,6 +7,12 @@ var signUpButton = document.querySelector("#sign-up");
 signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
   
+if (emailInput == emailInput) {
+  alert("You must enter the year you were born in.");
+  return true;
+}  
+
+  
   // create user object from submission
   var user = {
     firstName: firstNameInput.value.trim(),
