@@ -1,0 +1,82 @@
+<!-- DOCTYPE Declaration -->
+<!DOCTYPE html>
+<!-- HTML Element Begins -->
+<html lang="en">
+  <!-- Head Element Begins-->
+  <head>
+    <!-- Meta Elements -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Elements -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/pikachu.png">
+    <!-- Title Element -->
+    <title>Pokemon Search</title>
+    <!-- Head Element Ends-->
+  </head>
+  <!-- Body Element Begins-->
+  <body>
+    <!-- Main Element Begins-->
+    <main>
+      <header>
+        <a href="./index.html"><img id="pokemonLogo" src="./pokemonlogo.png" alt="Image of Pokemon Logo"></a>
+        <img id="pokemonPicture" src="./pokemon.png" alt="image of Pokemon">
+      </header>
+       <!-- contactBox Elements -->
+      <body>
+        <div class="h1-container">
+          <h1>Profile</h1>
+        </div>
+        <div class="card">
+          <h2>Profile Details</h2>
+          <form>
+            <ul>
+              <li>
+                <label for="name">Trainer Name</label>
+                <select id="student-names">
+                  <option value="Ash">Ash</option>
+                  <option value="Gary">Gary</option>
+                  <option value="Blue">Blue</option>
+                </select>
+              </li>
+              <li>
+                <label for="grade">Starter Pokemon Type</label>
+                <select id="grades">
+                  <option value="Water">Water</option>
+                  <option value="Grass">Grass</option>
+                  <option value="Fire">Fire</option>
+                  <option value="Incomplete">Electric</option>
+                </select>
+              </li>
+              <li>
+                <label for="msg">Pokedex Notes</label>
+                <textarea id="msg" name="comments"></textarea>
+              </li>
+            </ul>
+            <button id="save">Save</button>
+          </form>    
+        </div>
+    
+        <div class="card">
+          <h2>Saved Profile Details</h2>
+          <p>Trainers Name: <span id="saved-name"></span></p>
+          <p>Starter Pokemon Type: <span id="saved-grade"></span></p>
+          <p>Pokedex Notes<span id="saved-comment"></span></p>
+        </div>
+        
+        <script src="./assets/js/scriptPlayerProfile.js"></script>
+
+      </body>
+        <!-- User Input --> 
+      <!-- Container for generated data-->
+      <div class="pokemonBox"></div>
+    <!-- Main Element Ends-->
+    </main>
+    <!-- Script Relative Link -->
+    <script src="./assets/js/scriptContact.js"></script>
+    <!-- Body Element Ends-->
+  </body>
+</html>
+

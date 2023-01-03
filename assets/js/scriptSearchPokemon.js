@@ -1,5 +1,5 @@
 // Selecting our HTML Element from DOM
-document.querySelector("#search2").addEventListener("click", getPokemon);
+document.querySelector("#search").addEventListener("click", getPokemon);
 
 // Listening for event click, runs getPokemon function
 
