@@ -6,15 +6,14 @@ Project Repo: [Github-pages](https://github.com/timothymichaelcook/bootcamp-team
 
 ## Description
 
-The focus of this project was to get weather data using the OpenWeather API, with local storage being used to store data.
-This webpage will take a user's input in the form of text, make a call to the open weather API and return the five day weather forecast for that city. The page displays the user's search results, days of week, descriptive weather icons and minumnim/maximum values for temperatures in fahrenheit.
+Our team focused on providing as much information about Pokemon on our web application via the Pokemon API. User's can find information on Pokemon type, characteristics, images and more. A modal is used to provide instructions to users.
 
 ## User Story
 
 ```
-- AS AN an Pokemon trainer
-- I WANT to generate weather reports
-- SO THAT I can schedule safe trips
+- AS A Pokemon trainer
+- I WANT to find information about Pokemon
+- SO THAT I can catch more Pokemon
 ```
 
 ## Installation
@@ -23,7 +22,7 @@ N/A
 
 ## Usage
 
-Users need to click the text field, enter a given city and click the button. The webpage will generate a section with the weather for the last 5 days.
+Four windows for searching Pokemon, Pokedex, setting up a player profile and a contact form.
 
 
 ## Credits
