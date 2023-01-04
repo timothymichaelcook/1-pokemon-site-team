@@ -8,7 +8,7 @@ signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
   
 if (emailInput == emailInput) {
-  alert("You must enter the year you were born in.");
+  alert("Please complete all fields before submitting.");
   return true;
 }  
 
