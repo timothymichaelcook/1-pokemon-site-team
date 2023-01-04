@@ -20,6 +20,7 @@ function getPokemon(e) {
   fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
     .then((response) => response.json())
     .then((data) => {
+      //PASSES DATA TO INNER HTML
       document.querySelector(".pokemonBox").innerHTML = `
       <div>
         <img src="${data.sprites.other["official-artwork"].front_default}" alt="Image of Pokemon">
