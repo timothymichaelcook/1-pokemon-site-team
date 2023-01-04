@@ -4,14 +4,9 @@ var emailInput = document.querySelector("#email");
 var passwordInput = document.querySelector("#password");
 var signUpButton = document.querySelector("#sign-up");
 
+//When button is clicked, will store user input as data 
 signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
-  
-if (emailInput == emailInput) {
-  alert("Please complete all fields before submitting.");
-  return true;
-}  
-
   
   // create user object from submission
   var user = {
